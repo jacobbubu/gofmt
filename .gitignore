@@ -1,0 +1,7 @@
+.DS_Store
+.nvm-version
+Thumbs.db
+*.sublime-workspace
+npm-debug.log
+lib/
+/node_modules

@@ -1,0 +1,38 @@
+{
+  "name": "gofmt",
+  "version": "0.1.0",
+  "description": "A golang `fmt.Printf` implementation",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/*-test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobbubu/gofmt.git"
+  },
+  "keywords": [
+    "golang",
+    "fmt",
+    "printf"
+  ],
+  "author": "Rong Shen <rong.shen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobbubu/gofmt/issues"
+  },
+  "homepage": "https://github.com/jacobbubu/gofmt",
+  "dependencies": {
+    "filesize": "^2.0.3",
+    "printable-string": "^0.3.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.8.7",
+    "gulp-coffee": "^2.1.1",
+    "gulp-coffeelint": "^0.4.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-util": "^3.0.0",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
